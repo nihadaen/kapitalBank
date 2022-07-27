@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popular {
+    .img {
+        width: 25%;
+    }
+
+    .pop span {
+        font-size: 18px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+.row{
+    h2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.cards{
+    .card {
+        border: none;
+        margin-bottom: 60px;
+        img {
+            width: 70%;
+            top: -50px;
+            left: 20px;
+            position: absolute;
+        }
+    
+        .card-body {
+            margin-top: 20px;
+            transform: translateY(40px);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards{
+        .card{
+            .card-body{
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+            }
+            img{
+                width: 40%;
+                display: block;
+                transform: translateX(60%);
+            }
+            
+        }
+    }
+}
